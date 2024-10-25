@@ -90,4 +90,3 @@ def locate_smbios_entry(smbios_type):
         print(f"Type {smbios_type} structure not found.")
         return None
     return found_smbios_entry
-
